@@ -3,7 +3,7 @@ import { User } from "./components/User";
 import { AddUser } from "./components/AddUser";
 import "./index.css";
 import Loader from "./loader";
-
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 export default function App() {
 
@@ -117,7 +117,7 @@ export default function App() {
 
             width: "100px",
             margin: "auto",
-            marginTop: "20%",
+            marginTop: "0%",
             textalign: "center",
           }}
         >
